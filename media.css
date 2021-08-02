@@ -1,0 +1,64 @@
+@media (max-width: 1024px) {
+    .title{
+        font-size: small;
+        margin-top: 8%;
+        flex: 6;
+    }
+
+    .logo-left{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .songs-list{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: nowrap;
+        height:352px;
+        font-size: larger;
+        
+    }
+    
+    .songs{
+        padding: 6px;
+        margin-left: -19px;
+    }
+    .song-volume{
+        
+        margin-top:4%;
+        padding-top:30px;
+
+    }
+
+    h3{
+        visibility: hidden;
+    }
+
+    
+}
+
+
+@media (max-width: 768px){
+    .title{
+        font-size: x-small;
+    }
+    .material-icons{
+        font-size: 21px;
+        margin-top: 5px;
+    }
+
+    .songs-list{
+        font-size: 25px;
+    }
+
+    .song-volume{
+        padding-top:37px;
+    }
+    ol{
+        font-weight: 600;
+    }
+}
+    
+
+/*************/

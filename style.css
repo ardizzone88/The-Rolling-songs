@@ -1,0 +1,105 @@
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #dd3e54, #6be585);
+}
+
+.logo-left{
+  display:flex;
+  justify-content: space-around;
+
+}
+.logo-left > img{
+    margin-top: 10%;
+    animation-name: spinner-loading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.container{
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    background: linear-gradient(to right, #c31432, #240b36);
+    color: aliceblue;
+    width: 40%;
+    height: 100vh;
+    margin: 2rem auto;
+
+    
+    border: 5px solid gray;
+    border-radius: 45px;
+    margin-top:-22%;
+
+}
+
+.container > .title,h3{
+    text-align: center ;
+    
+    
+}
+
+
+  
+   
+  
+  .shadow-title {
+  
+      color: #463738;
+      text-transform: uppercase;
+      text-shadow: -19px 16px #ffffff, 21px -14px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #ffa8d0;
+  
+  }
+  
+
+
+
+.list-songs{
+    width: 100%;
+}
+.songs{
+    padding: 1rem 0rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.title{
+    flex:6;
+}
+.play, .pause, .descargar{
+    flex: 1;
+    cursor: pointer;
+}
+
+.song-volume{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+@keyframes spinner-loading{
+    0%{
+        transform:rotateZ(0deg);
+    }
+    100%{
+        transform: rotateY(360deg)
+    }
+}
+
+
+
+/*********/
